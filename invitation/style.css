@@ -1,0 +1,146 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'poppins',sans-serif;
+/*    border: 5px solid r*/
+/*    background: blue;*/
+}
+body{
+    border: 5px solid green;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #f3f3f3;
+    border: 5px solid green;
+    border-style:5px  solid blue;
+    padding:px 10%;
+    background-size: auto;
+/*    background: pink;*/
+/*    background-image: url("IMG_20210212_143328_1.jpg");*/
+        text-align: center;
+
+}
+.inner-container{
+}
+.
+/*text*/
+#seyo{
+    font-family: cursive;
+    font-size: 50px;
+    font-style:italic;
+    color: cadetblue;
+    text-decoration: overline;
+}
+h5{
+    padding: 0px 0px 10px 0px;
+}
+p{
+    padding: 0px 0px 10px 0px;
+}
+
+#families{
+    font-size: 20px;
+    font-weight: bold;
+}
+#tradition{
+    font-size: 40px;
+    font-family:g;
+    color: red;
+}
+#and{
+    font-size: 30px;
+    font-family:f;
+}
+
+.family{
+    font-family:cursive;
+    font-size: 30px;
+}
+
+.request{
+    font-display: swap;
+    font-size: 15;
+/*    font-weight: bold;*/
+}
+
+.insha{
+    font-family: cursive;
+        font-weight: bold;
+
+}
+
+.span{
+/*    background: blue;*/
+    padding: 10;
+        font-family: cursive;
+
+}
+.one{
+    border-right: 2px solid blue;
+/*    border-left: 2px solid blue;*/
+}
+.two{
+    border-right: 2px solid blue;
+/*    border-left: 2px solid blue;*/
+}
+
+.event-date{
+    font-weight: bold;
+}
+.direction{
+    text-decoration: none;
+    background:red ;
+    padding: 10;
+    font-weight: bolder
+    color: green;
+    border-radius:20px;
+    margin-top: 40px;
+}
+/*animation*/
+.seyo {
+/*    background-color: white;*/
+    
+/*    border-radius: 50%;*/
+    animation-iteration-count: infinite;
+    color: red;
+  }
+
+  .seyo {
+/*    margin-top: 15%;*/
+/*    margin-left: 60%;*/
+    animation-duration: 5s;
+    animation-name: twinkle;
+  }
+ @keyframes twinkle {
+    20% {
+transform: scale(0.1);
+      opacity: 0.5;    }
+  }
+
+
+/*second page*/
+#direction-div{
+/*    width: 50%;*/
+/*    margin: auto;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#header{
+    font-size: 30px;
+    font-family: cursive;
+    font-display: fallback;
+    color: firebrick;
+}
+#address{
+    letter-spacing: inherit;
+    color: brown;
+}
